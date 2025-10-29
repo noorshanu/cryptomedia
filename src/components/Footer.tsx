@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FiMail, FiGlobe, FiSend, FiTwitter } from 'react-icons/fi'
+import { FaDiscord, FaTelegramPlane, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -41,6 +42,23 @@ const Footer = () => {
             <div className="flex items-center gap-3 justify-center">
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/40"><FiMail /></span>
               <span>contact@cryptomediac.io</span>
+              <div className="ml-4 flex items-center gap-3">
+                <Link href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
+                  <FiTwitter />
+                </Link>
+                <Link href="https://t.me/" target="_blank" rel="noreferrer" aria-label="Telegram" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
+                  <FaTelegramPlane />
+                </Link>
+                <Link href="https://discord.com/" target="_blank" rel="noreferrer" aria-label="Discord" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
+                  <FaDiscord />
+                </Link>
+                <Link href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
+                  <FaGithub />
+                </Link>
+                <Link href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
+                  <FaLinkedinIn />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
