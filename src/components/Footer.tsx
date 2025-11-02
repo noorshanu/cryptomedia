@@ -41,9 +41,9 @@ const Footer = () => {
           <div className="grid grid-cols-1 items-center gap-4 justify-center text-sm text-white/90 ">
             <div className="flex items-center gap-3 justify-center">
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/40"><FiMail /></span>
-              <span>contact@cryptomediac.io</span>
+              <span>cryptomediac@gmail.com</span>
               <div className="ml-4 flex items-center gap-3">
-                <Link href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
+                <Link href="https://x.com/Cryptomediac1" target="_blank" rel="noreferrer" aria-label="Twitter" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
                   <FiTwitter />
                 </Link>
                 <Link href="https://t.me/" target="_blank" rel="noreferrer" aria-label="Telegram" className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white hover:border-white/40">
